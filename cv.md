@@ -26,3 +26,30 @@ _Hi, my name is Viktor Elenich! I'm 33 years old. I work as a fitness trainer. M
 * GitHub
 
 ***
+
+**Code Example**
+
+```
+    languageItems.forEach(lang => {
+    lang.addEventListener('click', (e) => {
+        languageItems.forEach(lang => {
+            lang.classList.remove('lang__active');
+            e.target.classList.add('lang__active');
+        })
+    })
+})
+```
+
+***
+
+**Education**
+
+* Courses:
+    * RS School JavaScript/Front-end course (https://rs.school/js/)
+    * Разработка на React (https://rs.school/react/)
+
+***
+
+**English**
+
+**A2**
