@@ -4,69 +4,75 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <title>CV</title>
 </head>
 <body>
-  <div class="container__animated">
-    <div class="bubbles">
-      <span style="--i:11;"></span>
-      <span style="--i:12;"></span>
-      <span style="--i:24;"></span>
-      <span style="--i:10;"></span>
-      <span style="--i:14;"></span>
-      <span style="--i:23;"></span>
-      <span style="--i:18;"></span>
-      <span style="--i:16;"></span>
-      <span style="--i:19;"></span>
-      <span style="--i:20;"></span>
-      <span style="--i:22;"></span>
-      <span style="--i:25;"></span>
-      <span style="--i:18;"></span>
-      <span style="--i:21;"></span>
-      <span style="--i:15;"></span>
-      <span style="--i:13;"></span>
-      <span style="--i:26;"></span>
-      <span style="--i:17;"></span>
-      <span style="--i:13;"></span>
-      <span style="--i:28;"></span>
-      <span style="--i:24;"></span>
-      <span style="--i:10;"></span>
-      <span style="--i:14;"></span>
-      <span style="--i:13;"></span>
-      <span style="--i:12;"></span>
-      <span style="--i:23;"></span>
-      <span style="--i:18;"></span>
-      <span style="--i:16;"></span>
-      <span style="--i:19;"></span>
-      <span style="--i:20;"></span>
-      <span style="--i:22;"></span>
-      <span style="--i:25;"></span>
-      <span style="--i:18;"></span>
-      <span style="--i:21;"></span>
-      <span style="--i:15;"></span>
-      <span style="--i:13;"></span>
-      <span style="--i:26;"></span>
-      <span style="--i:17;"></span>
-      <span style="--i:13;"></span>
-      <span style="--i:28;"></span>
-      <span style="--i:13;"></span>
-      <span style="--i:26;"></span>
-      <span style="--i:17;"></span>
-      <span style="--i:13;"></span>
-    </div>
-    <header>
-      <ul class="navigation">
-        <li style="--i:6;"><a href="#">Home</a></li>
-        <li style="--i:5;"><a href="#">About</a></li>
-        <li style="--i:4;"><a href="#">Portfolio</a></li>
-        <li style="--i:3;"><a href="#">Education</a></li>
-        <li style="--i:2;"><a href="#">Code Example</a></li>
-        <li style="--i:1;"><a href="#">Contacts</a></li>
+  <div class="container">
+    <div  class="navigation">
+      <ul>
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Code Example</a></li>
+        <li><a href="#">Contacts</a></li>
       </ul>
-    </header>
-    <main></main>
-    <footer></footer>
+    </div>
+    <main class="main">
+      <div class="topbar">
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+      </div>
+      <section class="banner" id="banner">
+        <div class="content">
+          <div class="img_author">
+            <img src="./assets/img/photo.jpg" alt="author">
+          </div>
+          <h3>Victor Elenich</h3>
+          <p>I'm Junior Frontend Developer</p>
+          <a href="cv/index.html" class="btn">Download My CV</a>
+          <ul class="social__links">
+            <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="about control" id="about">
+        <div class="title">
+          <h2>About Me</h2>
+        </div>
+        <div class="content">
+          <div class="text__container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Adipisci expedita error nostrum facilis optio sunt atque incidunt hic id unde,
+              libero voluptate ut corrupti laboriosam esse molestiae perferendis quia impedit 
+              dolores autem temporibus nobis harum! Ratione voluptates quae tenetur dolorem? Cumque, 
+              quis soluta adipisci harum laboriosam ab ex, accusamus voluptatum iusto fugit sapiente 
+              delectus praesentium. At mollitia quidem numquam voluptas repellat fugiat doloribus voluptates 
+              rerum officia tempore, eum corporis error vitae ipsa non quas quibusdam expedita placeat illum 
+              vel totam. <br><br> Maxime perspiciatis earum eligendi architecto consequatur 
+              esse, corrupti fuga neque quam debitis quae possimus quod amet cum minus quisquam. Quia harum, 
+              sint quibusdam voluptas unde maxime ipsa magnam inventore nihil expedita modi dolor ipsam, 
+              fugit tempora nobis totam ut voluptates ad assumenda? Voluptas 
+              inventore iste itaque ut doloremque amet magni, rem repellat!</p>
+          </div>
+          <div class="img__author">
+            <img src="./assets/img/photo_1.jpg" alt="author">
+          </div>
+        </div>
+      </section>
+      <section class="portfolio control" id="portfolio">
+        <div class="title">
+          <h2>Portfolio</h2>
+        </div>
+      </section>
+    </main>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
