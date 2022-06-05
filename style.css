@@ -229,6 +229,7 @@ p {
 .title {
   width: 100%;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .title h2 {
@@ -259,7 +260,9 @@ p {
 .about .content .text__container {
   width: 49%;
   min-width: 49%;
+  font-size: 1.2em;
 }
+
 .about .content .text__container ul {
   margin-top: 20px;
 }
@@ -335,4 +338,55 @@ p {
   color: #fff;
   font-size: 1em;
 
+}
+
+.projects .content .project__container .text__box h3 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.projects .content .project__container .text__box h3 a:hover {
+  opacity: 1;
+}
+
+.education .content {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px;
+  margin: 40px 0;
+}
+
+.education .content .education__container {
+  background: var(--whiteBackground);
+  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+  padding: 20px;
+}
+
+.education .content .education__container .img__box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.education .content .education__container .img__box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.education .content .education__container h4 {
+  font-size: 1.2em;
+  text-align: right;
+}
+
+.education .content .education__container h4 a {
+  text-decoration: none;
+  color: var(--colorBlackFont);
 }
