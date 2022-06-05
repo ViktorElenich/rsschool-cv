@@ -384,9 +384,17 @@ p {
 .education .content .education__container h4 {
   font-size: 1.2em;
   text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-right: 10px;
+  border-right: 4px solid var(--colorBlackFont);
 }
 
 .education .content .education__container h4 a {
   text-decoration: none;
   color: var(--colorBlackFont);
+}
+
+pre {
+  font-size: 1.2em;
 }

@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="assets/theme_code/rainbow.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>CV</title>
 </head>
@@ -16,7 +17,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
-        <li><a href="#">Code Example</a></li>
+        <li><a href="#code__example">Code Example</a></li>
         <li><a href="#">Contacts</a></li>
       </ul>
     </div>
@@ -168,8 +169,47 @@
           </div>
         </div>
       </section>
+      <section class="code__example control" id="code__example">
+        <div class="title">
+          <h2>Code Example</h2>
+        </div>
+        <div class="content">
+          <div class="code__container">
+            <pre>
+              <code data-language="javascript">
+  window.addEventListener('scroll', scrollAnimation);
+  function scrollAnimation(){
+      for (let i = 0; i < animItems.length; i++){
+          const animItem = animItems[i];
+          const animItemsHeight = animItem.offsetHeight;
+          const animItemsOffset = offset(animItem).top;
+          const animStart = 4;
+
+          let animItemPoint = window.innerHeight - animItemsHeight / animStart;
+          if(animItemsHeight > window.innerHeight){
+              animItemPoint = window.innerHeight - window.innerHeight / animStart;
+          }
+          if((scrollY > animItemsOffset - animItemPoint) && scrollY < (animItemsOffset + animItemsHeight)){
+              animItem.classList.add('_active');
+          } else{
+              animItem.classList.remove('_active');
+          }
+      }
+  }
+  function offset(el){
+      const rect = el.getBoundingClientRect(),
+          scrollLeft = window.scrollY || document.documentElement.scrollLeft,
+          scrollTop = window.scrollY || document.documentElement.scrollTop;
+      return { top: rect.top + scrollTop, left: rect.left + screenLeft}
+  }
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
     </main>
   </div>
   <script src="script.js"></script>
+  <script src="assets/theme_code/rainbow-custom.min.js"></script>
 </body>
 </html>
