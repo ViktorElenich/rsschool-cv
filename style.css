@@ -179,7 +179,7 @@ section {
   object-fit: cover;
 }
 
-h3 {
+h1 {
   position: relative;
   font-size: 1.4em;
   color: var(--colorBlackFont);
