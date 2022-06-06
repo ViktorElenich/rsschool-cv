@@ -297,8 +297,8 @@ p {
 
 .about .content .text__container p:nth-child(2) {
   margin-bottom: 0;
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .about .content .text__container ul {
