@@ -57,7 +57,7 @@
               Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself and do interesting things.
             </p>
             <ul>
-              <h4>Skills:</h4>
+              <p>Skills:</p>
               <li>Hardworking</li>
               <li>Responsible</li>
               <li>Sociable</li>
@@ -180,7 +180,7 @@
               <code data-language="javascript">
   window.addEventListener('scroll', scrollAnimation);
   function scrollAnimation(){
-      for (let i = 0; i < animItems.length; i++){
+      for (let i = 0; i &lt; animItems.length; i++){
           const animItem = animItems[i];
           const animItemsHeight = animItem.offsetHeight;
           const animItemsOffset = offset(animItem).top;
@@ -190,7 +190,7 @@
           if(animItemsHeight > window.innerHeight){
               animItemPoint = window.innerHeight - window.innerHeight / animStart;
           }
-          if((scrollY > animItemsOffset - animItemPoint) && scrollY < (animItemsOffset + animItemsHeight)){
+          if((scrollY > animItemsOffset - animItemPoint) && scrollY &lt; (animItemsOffset + animItemsHeight)){
               animItem.classList.add('_active');
           } else{
               animItem.classList.remove('_active');
@@ -214,12 +214,12 @@
         </div>
         <div class="contact__form">
           <div class="row">
-            <input type="text" name="" placeholder="First Name">
-            <input type="text" name="" placeholder="Last Name">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
           </div>
           <div class="row">
-            <input type="text" name="" placeholder="Email Address">
-            <input type="text" name="" placeholder="Tel:">
+            <input type="text" placeholder="Email Address">
+            <input type="text" placeholder="Tel:">
           </div>
           <div class="row2">
             <textarea placeholder="Message"></textarea>
