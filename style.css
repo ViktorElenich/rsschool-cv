@@ -238,3 +238,21 @@ span {
 .portfolio_info i {
   font-size: 2rem;
 }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 9%;
+  background: var(--snd-bg-color);
+}
+.since {
+  font-size: 1.6rem;
+}
+.footer a img {
+  width: 5rem;
+}
+.footer a img:hover {
+  transform: scale(1.1);
+  transition: .2s ease;
+}
