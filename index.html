@@ -5,9 +5,166 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>CV</title>
 </head>
 <body>
+<header class="header">
+  <a href="#" class="logo">Portfolio</a>
+  <i class="fa-solid fa-bars" id="menu_icon"></i>
+  <nav class="nav">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a>
+  </nav>
+</header>
+<main>
+  <section class="home" id="home">
+    <div class="home_content">
+      <h3>Hi, I'm</h3>
+      <h1>Viktor Elenich</h1>
+      <h3><span class="typed_text"></span></h3>
+      <div class="social_media">
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/%D0%B2%D0%B8%D0%BA%D1%82%D0%BE%D1%80-%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%87-218915210/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="tel:+79111111111"><i class="fa-solid fa-mobile-screen-button"></i></a>
+      </div>
+    </div>
+    <div class="home_img">
+      <img src="./assets/main_page.png" alt="photo">
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="about_img">
+      <img src="./assets/about_img.png" alt="about photo">
+    </div>
+    <div class="about_content">
+      <h2 class="title">About <span>Me</span></h2>
+      <h3>Frontend Developer</h3>
+      <p>I have devoted most of my life to sports - it has tempered my character.
+        The IT industry does not submit on the spur of the moment, so I go through training,
+        which I immediately consolidate with practice. I like to create products,
+        I like to think about a task from different angles. I like to see the result,
+        which, like in sports, can take a long time to wait. What can I give the company -
+        a loyal employee who has seen difficulties. What the company can give me is a team, support,
+        experience and faith, which I will return in multiple amounts in cool products and sustainable solutions.</p>
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <h2 class="title">My <span>Skills</span></h2>
+    <div class="skills_container">
+      <div class="skills_box">
+        <i class="fa-solid fa-code"></i>
+        <h3>Web Development</h3>
+        <p>A web developer is responsible for creating and maintaining websites or web applications.</p>
+      </div>
+      <div class="skills_box">
+        <i class="fa-brands fa-html5"></i>
+        <h3>HTML5</h3>
+        <p>Is a markup language used for structuring and presenting content on the World Wide Web</p>
+      </div>
+      <div class="skills_box">
+        <i class="fa-brands fa-css3-alt"></i>
+        <h3>CSS3</h3>
+        <p>CSS3 stands for Cascading Style Sheet level 3, which is the advanced version of CSS.</p>
+      </div>
+      <div class="skills_box">
+        <i class="fa-brands fa-js"></i>
+        <h3>JavaScript</h3>
+        <p>JavaScript is a programming language created for web browsers, for making web pages feel alive.</p>
+      </div>
+      <div class="skills_box">
+        <i class="fa-brands fa-react"></i>
+        <h3>React</h3>
+        <p>React has quickly become a popular choice for frontend web development,
+          and its usage has been steadily increasing since its introduction in 2013.</p>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio" id="portfolio">
+    <h2 class="title">Latest <span>Projects</span></h2>
+    <div class="portfolio_container">
+      <div class="portfolio_box">
+        <img src="./assets/1.jpg" alt="first project">
+        <div class="portfolio_info">
+          <h4>EduEm website commercial</h4>
+          <p>Only HTML, CSS, JS</p>
+          <a href="https://test-landing-page-viktor.netlify.app/" target="_blank">
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio_box">
+        <img src="./assets/2.jpg" alt="second project">
+        <div class="portfolio_info">
+          <h4>Web Game Tron</h4>
+          <p>HTML, CSS, React, Three.JS</p>
+          <a href="https://rsclone-tron-game.netlify.app/" target="_blank">
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio_box">
+        <img src="./assets/3.jpg" alt="third project">
+        <div class="portfolio_info">
+          <h4>Web Game SongBirds</h4>
+          <p>VanillaJS</p>
+          <a href="https://viktorelenich-songbirds.netlify.app/" target="_blank">
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio_box">
+        <img src="./assets/4.jpg" alt="fourth project">
+        <div class="portfolio_info">
+          <h4>Website Online Zoo</h4>
+          <p>HTML, CSS, JS</p>
+          <a href="https://online-zoo3-viktorelenich.netlify.app/" target="_blank">
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio_box">
+        <img src="./assets/5.jpg" alt="fourth project">
+        <div class="portfolio_info">
+          <h4>Momentum</h4>
+          <p>HTML, CSS, JS</p>
+          <a href="https://momentum-2k22.netlify.app/" target="_blank">
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio_box">
+        <img src="./assets/6.jpg" alt="fourth project">
+        <div class="portfolio_info">
+          <h4>Christmas Tree</h4>
+          <p>HTML, CSS, JS</p>
+          <a href="https://christmas-tree-viktor-elenich.netlify.app/" target="_blank">
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div>
+    <a href="https://github.com/ViktorElenich" target="_blank">
+      <img src="./assets/github.svg" alt="github">
+    </a>
+  </div>
+  <div class="since"><p>© SINCE 2024</p></div>
+  <div>
+    <a href="https://rs.school/js/" target="_blank">
+      <img src="./assets/logo_rs.png" alt="rsschool_logo">
+    </a>
+  </div>
+</footer>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="./main.js"></script>
 </body>
 </html>
