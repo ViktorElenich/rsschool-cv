@@ -34,6 +34,9 @@ span {
 ul, li {
   list-style: none;
 }
+#loom-companion-mv3 {
+  display: none;
+}
 .header {
   position: fixed;
   top: 0;
