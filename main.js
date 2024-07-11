@@ -17,7 +17,7 @@ ScrollReveal({
 ScrollReveal().reveal('.home_content, .title', { origin: 'top'});
 ScrollReveal().reveal('.home_img, .skills_container, .portfolio_box, .timeline_items', { origin: 'bottom'});
 ScrollReveal().reveal('.home_content h1, .about_img, .timeline_item', { origin: 'left'});
-ScrollReveal().reveal('.about_content, .skills_box', { origin: 'right'});
+ScrollReveal().reveal('.about_content, .skills_box', { origin: 'left'});
 
 const typed = new Typed('.typed_text', {
   strings: ['Frontend Developer'],
